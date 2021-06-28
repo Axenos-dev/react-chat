@@ -1,0 +1,36 @@
+.main, html{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.join-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 30px 45px;
+    border-radius: 10px;
+}
+.input {
+    margin: 5px;
+    height: 26px;
+    border-style: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.join-btn{
+    border-style: none;
+    background-color: limegreen;
+    color: white;
+    height: 43px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
